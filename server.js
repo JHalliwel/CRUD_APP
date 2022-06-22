@@ -8,7 +8,6 @@ const bodyParser = require('body-parser')
 
 const MongoClient = require('mongodb').MongoClient
 
-const connectionString = 'mongodb+srv://Jhalliwel:Halliwel89@cluster0.7e895de.mongodb.net/?retryWrites=true&w=majority'
 
 MongoClient.connect(connectionString, (err, client) =>{
     if (err) return console.error(err)
